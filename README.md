@@ -14,7 +14,7 @@ This project implements a **Circular Linked List** (CLL) in C++. A CLL is a type
   - From a specific position
   - By value
 - Display the list contents
-- Menu-driven user interface
+
 ```
 ## 🛠️ Data Structure
 
@@ -66,7 +66,7 @@ A **doubly linked list** allows traversal in both directions (forward and backwa
 - Access value at any position
 - Display the list (head-to-tail and tail-to-head)
 - Search for a specific value
-- Interactive, menu-driven console UI
+
 
 ---
 
@@ -118,7 +118,7 @@ A **queue** is a First-In-First-Out (FIFO) linear data structure. This implement
 - Dequeue (Remove an element from the front)
 - Peek (View the front element without removing it)
 - Display (Show all elements in the queue)
-- Menu-driven interface
+
 
 ---
 
@@ -149,5 +149,5 @@ Queue Implementation using Linked List
 Enter choice:
 ```
 
-# 
+# Thanks 🙏🙏🙏
 
