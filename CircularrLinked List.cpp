@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Node structure for the circular doubly linked list
+// Node structure for the circular linked list
 struct CNode {
     int data;         // Data stored in the node
     CNode* prev;      // Pointer to the previous node
