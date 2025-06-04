@@ -21,7 +21,7 @@ Displaying the list
 ✅ Menu-based interactive interface
 
 ```
-![Status](--- MENU ---
+--- MENU ---
 
 1. Insert at beginning
 2. Insert at end
@@ -42,7 +42,7 @@ Enter your choice: 3
 Enter position and data: 2 15
 
 Enter your choice: 8
-List: 10 <-> 15 <-> 20 <-> (back to head))
+List: 10 <-> 15 <-> 20 <-> (back to head)
 ```
 
 # 🔗 Doubly Linked List Implementation in C++
