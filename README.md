@@ -25,7 +25,7 @@ struct CNode {
     CNode* next;
 };
 ```
-+# ▶️ Sample Output
+# ▶️ + Sample Output
 ```
 --- MENU ---
 1. Insert at beginning
