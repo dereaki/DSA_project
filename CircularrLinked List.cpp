@@ -213,24 +213,6 @@ void showMenu() {
 }
 
 int main() {
-    // Display assignment and group information
-    cout << "\t\t\tWOLDIA UNIVERSITY\n\t\t\tSCHOOL OF COMPUTING\n\t\t\t DEPARTMENT OF SOFTWARE ENGINEERING\n";
-    cout << "\t\t\tDATA STRUCTURE and ALGORITHM\n\t\t\t GROUP ASSIGNMENT\n\n";
-    
-    cout << "\n";
-    cout << "\n";
-    cout << "\tName of Group Members\t\tID Number\n";
-    cout << "\t1.  Gebremikaeil  Aweta\t\tWDU160578\n";
-    cout << "\t2.  Ahmed   Kebede  \t\tWDU160089 \n";
-    cout << "\t3.  Mikael   Alemayehu\t\tWDU160938\n";
-    cout << "\t4.  Mahder   Azmeraw\t\tWDU160803\n";
-    cout << "\t5.  Samrawit   Amha\t\tWDU161056\n";
-    cout << "\t6.  Zyyeich   Wuletaw\t\tWDU161397\n\n\n";
-    
-    cout << "\n";
-    cout << "\n";
-    cout << "This code implements circular linked list \n";
-
     int choice, data, position;
 
     // Loop until user chooses to exit

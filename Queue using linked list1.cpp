@@ -70,23 +70,8 @@ void display() {
 }
 
 int main() {
-	
-	 cout << "\t\t\tWOLDIA UNIVERSITY\n\t\t\tSCHOOL OF COMPUTING\n\t\t\t DEPARTMENT OF SOFTWARE ENGINEERIG\n";
-	 cout << "\t\t\tDATA STRUCTURE and ALGORITM\n\t\t\tGROUP ASSIGNMENT";
-	 cout << "" << endl;
-	 cout << "" << endl;
-	 cout << "" << endl;
-	 cout << "\tName of Group Members\t\tID Number\n";
-	 cout << "\t1.  Gebremikaeil  Aweta\t\tWDU160578\n";
-	 cout << "\t2.  Ahmed   Kebede  \t\tWDU160089 \n";
-	 cout << "\t3.  Mikael   Alemayehu\t\tWDU160938\n";
-	 cout << "\t4.  Mahder   Azmeraw\t\tWDU160803\n";
-	 cout << "\t5.  Samrawit   Amha\t\tWDU161056\n";
-	 cout << "\t6.  Zyyeich   Wuletaw\t\tWDU161397\n";
-	 
-	  cout << "" << endl;
-	  cout << "" << endl;
-	   cout << "" << endl;
+	cout<<"Queue Implementation using Linked List\n";
+    
     int choice, value;
 
     while (true) {

@@ -233,23 +233,8 @@ void showMenu() {
 }
 
 int main() {
-    // Project title and group information
-    cout << "\t\t\tWOLDIA UNIVERSITY\n\t\t\tSCHOOL OF COMPUTING\n\t\t\t DEPARTMENT OF SOFTWARE ENGINEERIG\n";
-    cout << "\t\t\tDATA STRUCTURE and ALGORITHM\n\tGROUP ASSIGNMENT\n\n";
-    cout << "\n";
-    cout << "\n";
-    cout << "\tName of Group Members\t\tID Number\n";
-    cout << "\t1.  Gebremikaeil  Aweta\t\tWDU160578\n";
-    cout << "\t2.  Ahmed   Kebede  \t\tWDU160089\n";
-    cout << "\t3.  Mikael   Alemayehu\t\tWDU160938\n";
-    cout << "\t4.  Mahder   Azmeraw\t\tWDU160803\n";
-    cout << "\t5.  Samrawit   Amha\t\tWDU161056\n";
-    cout << "\t6.  Zyyeich   Wuletaw\t\tWDU161397\n";
+   
     
-    
-    cout << "\n";
-    cout << "\n";
-    cout << "This code implements double linked list \n";
 
     int choice, data, position;
 
