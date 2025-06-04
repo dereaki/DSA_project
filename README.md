@@ -1,36 +1,41 @@
+# 🔗 Doubly Linked List Implementation in C++
 
+## 📌 Overview
 
+This project provides a comprehensive implementation of a **Doubly Linked List** using C++. The program offers various operations including insertion, deletion, traversal (forward and backward), value lookup, and position access. It demonstrates the use of pointers to create dynamic memory structures for storing and manipulating data in a flexible and efficient manner.
 
-# Doubly Linked List in C++ (Menu-Driven Program)
+A **doubly linked list** allows traversal in both directions (forward and backward), and each node maintains pointers to both its previous and next nodes.
 
+---
 
- ```This project implements a doubly linked list in C++ with various operations such as insertion, deletion, searching, and displaying elements. The program uses a menu-driven interface that allows users to interactively manage the list through the console.```
+## ✅ Features
 
+- Insert at a specific position
+- Insert at the beginning or end
+- Delete at a specific position
+- Delete first or last node
+- Access value at any position
+- Display the list (head-to-tail and tail-to-head)
+- Search for a specific value
+- Interactive, menu-driven console UI
 
-##  📋 Features
-```
-Insert at the beginning
-Insert at the end
-Delete from a specific position
-Delete the first node
-Delete the last node
-Get the value at a given position
-Display the list (from head to tail)
-Display in reverse (from tail to head)
-Search for a value in the list
-User-friendly menu interface
-```
+---
 
-##  🧠 How It Works
+## 🧠 How It Works
 
-```
-The program maintains a global pointer head that points to the start of the doubly linked list. Each node contains:
-data: the value
-prev: pointer to the previous node
-next: pointer to the next node
-The user can choose from a list of operations provided via the menu.
-```
+- **Struct `Node`**: Represents each element in the list with three parts: `data`, `prev`, and `next`.
+- **Global pointer `head`**: Maintains the head (start) of the doubly linked list.
+- **Dynamic memory** is managed with `new` and `delete`.
 
+---
+
+## 🖥️ Usage
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/dereaki/doubly-linked-list.git
+   cd doubly-linked-list
+## 🔍 Menu Sample Output
 ```
 --- MENU ---
 1. Insert at position
@@ -44,27 +49,7 @@ The user can choose from a list of operations provided via the menu.
 9. Display list in reverse
 10. Search for value
 11. Exit
-```
-How to Compile and Run
-
-```run dev```
-
-##  📷 Sample Output
-```
---- MENU ---
-1. Insert at position
-2. Insert at beginning
-3. Insert at end
-...
-
-Enter your choice: 2
-Enter data: 10
-Enter your choice: 3
-Enter data: 20
-Enter your choice: 1
-Enter data and position: 15 2
-Enter your choice: 8
-List: 10 <-> 15 <-> 20 <->
+Enter your choice:
 ```
 
 
