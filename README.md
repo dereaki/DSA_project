@@ -33,10 +33,23 @@ A **Circular Doubly Linked List** is a variation of a doubly linked list where t
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/circular-doubly-linked-list.git
+   git clone https://github.com/dereaki/circular-doubly-linked-list.git
    cd circular-doubly-linked-list
 
-
+## 📝 Sample Menu Output
+```
+--- MENU ---
+1. Insert at beginning
+2. Insert at end
+3. Insert at position
+4. Delete from beginning
+5. Delete from end
+6. Delete from position
+7. Delete by value
+8. Display list
+9. Exit
+Enter your choice:
+```
 
 
 # Doubly Linked List in C++ (Menu-Driven Program)
