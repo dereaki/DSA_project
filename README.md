@@ -1,6 +1,6 @@
 # 🌀 Circular Linked List in C++
 
-This project implements a **Circular Linked List** (CDLL) in C++. A CDLL is a type of linked list where each node has pointers to both the previous and next node, and the last node links back to the first, forming a circle.
+This project implements a **Circular Linked List** (CDLL) in C++. A CLL is a type of linked list where each node has pointers to both the previous and next node, and the last node links back to the first, forming a circle.
 
 ## 📋 Features
 ```
