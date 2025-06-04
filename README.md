@@ -1,5 +1,51 @@
-# 🔗 Doubly Linked List Implementation in C++
+# 🔁 Circular Doubly Linked List (C++)
+```A menu-driven C++ console application that demonstrates the implementation and manipulation of a circular doubly linked list. It supports insertion, deletion, and display operations, allowing users to manage dynamic data structures efficiently.```
 
+## 📌 Project Overview
+```This program uses a circular doubly linked list structure where each node points to both the next and previous nodes, and the last node connects back to the head node. The list supports operations like:```
+
+Insertion at the beginning, end, or a specific position
+
+Deletion from the beginning, end, or a specific position
+
+Deletion by value
+
+Displaying the list
+
+
+# 🚀 Features
+✅ Insert nodes at the beginning, end, or any position
+✅ Delete nodes from the beginning, end, by position, or by value
+✅ Display the entire list (shows circular structure)
+✅ Handles edge cases (empty list, single-node list, invalid inputs)
+✅ Menu-based interactive interface
+
+```
+![Status](--- MENU ---
+
+1. Insert at beginning
+2. Insert at end
+3. Insert at position
+4. Delete from beginning
+5. Delete from end
+6. Delete from position
+7. Delete by value
+8. Display list
+9. Exit
+Enter your choice: 1
+Enter data: 10
+
+Enter your choice: 2
+Enter data: 20
+
+Enter your choice: 3
+Enter position and data: 2 15
+
+Enter your choice: 8
+List: 10 <-> 15 <-> 20 <-> (back to head))
+```
+
+# 🔗 Doubly Linked List Implementation in C++
 ## 📌 Overview
 
 This project provides a comprehensive implementation of a **Doubly Linked List** using C++. The program offers various operations including insertion, deletion, traversal (forward and backward), value lookup, and position access. It demonstrates the use of pointers to create dynamic memory structures for storing and manipulating data in a flexible and efficient manner.
