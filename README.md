@@ -1,28 +1,33 @@
-# 🔁 Circular Doubly Linked List (C++)
-```A menu-driven C++ console application that demonstrates the implementation and manipulation of a circular doubly linked list. It supports insertion, deletion, and display operations, allowing users to manage dynamic data structures efficiently.```
+# 🌀 Circular Linked List in C++
 
-## 📌 Project Overview
-```This program uses a circular doubly linked list structure where each node points to both the next and previous nodes, and the last node connects back to the head node. The list supports operations like:```
+This project implements a **Circular Linked List** (CDLL) in C++. A CDLL is a type of linked list where each node has pointers to both the previous and next node, and the last node links back to the first, forming a circle.
 
-Insertion at the beginning, end, or a specific position
+## 📋 Features
+```
+- Insert a node at the:
+  - Beginning
+  - End
+  - Specific position
+- Delete a node:
+  - From the beginning
+  - From the end
+  - From a specific position
+  - By value
+- Display the list contents
+- Menu-driven user interface
+```
+## 🛠️ Data Structure
 
-Deletion from the beginning, end, or a specific position
-
-Deletion by value
-
-Displaying the list
-
-
-# 🚀 Features
-✅ Insert nodes at the beginning, end, or any position
-✅ Delete nodes from the beginning, end, by position, or by value
-✅ Display the entire list (shows circular structure)
-✅ Handles edge cases (empty list, single-node list, invalid inputs)
-✅ Menu-based interactive interface
-
+```cpp
+struct CNode {
+    int data;
+    CNode* prev;
+    CNode* next;
+};
+```
++# ▶️ Sample Output
 ```
 --- MENU ---
-
 1. Insert at beginning
 2. Insert at end
 3. Insert at position
@@ -35,16 +40,14 @@ Displaying the list
 Enter your choice: 1
 Enter data: 10
 
+--- MENU ---
 Enter your choice: 2
 Enter data: 20
 
-Enter your choice: 3
-Enter position and data: 2 15
-
+--- MENU ---
 Enter your choice: 8
-List: 10 <-> 15 <-> 20 <-> (back to head)
+List: 10 <-> 20 <-> (back to head)
 ```
-
 # 🔗 Doubly Linked List Implementation in C++
 ## 📌 Overview
 
