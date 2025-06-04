@@ -148,10 +148,4 @@ Queue Implementation using Linked List
 5. Exit
 Enter choice:
 ```
-| No | Student Name         | ID Number |
-|----|----------------------|-----------|
-| 1  | Dereje Tesfaye       | 160416    |
-| 2  | Tadios Misganaw      | 161162    |
-| 3  | Bizuye Abebe         | 160355    |
-| 4  | Eyerusalem Nigussie  | 160528    |
-| 5  | Wagnew Nigussie      | 161255    |
+
